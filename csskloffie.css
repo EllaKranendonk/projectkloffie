@@ -1,0 +1,282 @@
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+    width: 6em;
+    height: 5em;
+    left: 0,5;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    right: 1.3em;
+    gap: 0.5em;
+}
+
+header{
+    background-color:cornflowerblue ;
+    position: relative;
+    bottom: 1.5em;
+    right: 1.3em;
+    width: 25em;
+}
+
+section img{
+    width:25em;
+    height: 15em;
+    position: relative;
+    right: 1em;
+    bottom: 2.5em;
+}
+
+main article{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2em;
+}
+
+main article a{
+    color: chocolate;
+    background-color: white;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+img{
+    width: 9em;
+    height: 9em;
+    right: 1em;
+    position: relative;
+}
+
+main section a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    position: relative;
+    left: 3.5em;
+}
+
+main h2{
+    font-size: medium;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: cornflowerblue;
+    margin-top: 2em;
+    width: 25em;
+}
+
+footer p{
+    margin-bottom: 0,2em;
+}
+
+.twee main section img{
+    width: 11em;
+    height: 13em;
+    left: 1em;
+}
+
+.twee article{
+    justify-content: start;
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.twee article{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1;
+}
+
+.twee article h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-right: 4em;
+    margin-bottom: 0,2;
+    font-size: 1;
+}
+
+.twee article p{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    width: 12em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 1;
+}
+.twee article div{
+    font-size: 1;
+}
+
+.twee article img{
+    height: 10em;
+    width: 10em;
+}
+
+.twee article a{
+    position: relative;
+    right: 7em;
+    text-decoration: underline;
+}
+
+.twee h2{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.twee .map{
+    height: 20em;
+    width: 20em;
+    position: relative;
+    top: 0.5em;
+}
+
+.drie article h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.drie article{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drie section h2{
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drie section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drie section a{
+    background-color: white;
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.drie section img{
+    width: 7em;
+    height: 7em;
+}
+
+.drie section li{
+    list-style: none;
+}
+
+.drie section ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 3em;
+}
+
+.vier section h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vier section img{
+    width: 9.5em;
+    height: 9em;
+}
+
+.vier section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.vier section li{
+    list-style: none;
+}
+
+.vier section h3{
+    padding-right: 5em;
+}
+
+.vier section ul img{
+    position: relative;
+    top: 1em;
+}
+
+.vier .outwear h3{
+    margin-top: -1em;
+}
+
+.vier .outwear img{
+    margin-top: -1em;
+}
+
+.vier .outwear article{
+    margin-top: 1em;
+    display: flex;
+    gap: 9em;
+}
+
+.vier .apparel img{
+    margin-top: -1em;
+}
+
+.vier .apparel article{
+    margin-top: 1em;
+    display: flex;
+    gap: 9em;
+}
+
+.vier .shoes h3{
+    margin-top: -2em;
+}
+
+.vier .shoes img{
+    margin-top: -3em;
+}
+
+.vier .shoes article{
+    margin-top: 1em;
+    display: flex;
+    gap: 9em;
+}
+
+.vier .shoes li:nth-child(3){
+    position: relative;
+    top: -1em;
+}
